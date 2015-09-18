@@ -1,11 +1,11 @@
-function D(x) {
+function d(x) {
 	return 2*(x*x);
 }
-function W(y) {
+function w(y) {
 	return 4/y;
 }
-function S(z) {
+function s(z) {
 	return Math.round(z);
 }
 
-console.log(S(W(D(1.1))));
+console.log(s(w(d(1.1))));
